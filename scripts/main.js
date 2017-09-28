@@ -3,7 +3,7 @@ var myImage = document.getElementById('main-pic');
 myImage.onclick = function() {
 	var mySrc = myImage.getAttribute('src');
 	if(mySrc === 'images/sai-main.jpg') {
-		myImage.setAttribute ('src','images/desis-choice.png');
+		myImage.setAttribute ('src','images/desis-choice.PNG');
 	} else {
 		myImage.setAttribute ('src','images/sai-main.jpg');
 	}	
