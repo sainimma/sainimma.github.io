@@ -17,8 +17,14 @@ body {
 
 h1 {
 	margin: 0;
-	padding: 20px 0;
+	padding: 0 0;
 	font-size: 60px;
+	text-align: center;
+}
+
+h2 {
+	margin: 0;
+	padding: 5px 0 0 0;
 	text-align: center;
 }
 
@@ -28,7 +34,7 @@ p, li {
 	letter-spacing: 1px;
 }
 
-h1, p, li {
+h1, h2, p, li {
 	color: black;
 }
 
@@ -38,4 +44,18 @@ h1, p, li {
 
 .external-link:hover {
 	color: blue;
+}
+
+button {
+	border: none;
+	width = 20%;
+	margin-left: 40%;
+	margin-right: 40%;
+	margin-bottom: 2%;
+	color: black;
+	background-color: #77f1ff;
+	font-family: 'Source Serif Pro', serif;
+	text-align: center;
+	display: inline-block;
+	border: 2px solid black;
 }
