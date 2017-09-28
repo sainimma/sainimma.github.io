@@ -1,18 +1,13 @@
 html {
 	font-size: 10px;
 	font-family: 'Source Serif Pro', serif;
-	background-color: #A0CA77;
+	background-color: #effffc;
 }
 
 body {
 	width: 600px;
 	margin: 0 auto;
 	padding: 0 20px 20px 20px;
-}
-
-#main-pic {
-	margin: 0 auto;
-	display: block;
 }
 
 h1 {
@@ -38,6 +33,11 @@ h1, h2, p, li {
 	color: black;
 }
 
+#main-pic {
+	margin: 0 auto;
+	display: block;
+}
+
 .external-link {
 	color: red;
 }
@@ -58,4 +58,8 @@ button {
 	text-align: center;
 	display: inline-block;
 	border: 2px solid black;
+}
+
+button:hover {
+	background-color: white;
 }

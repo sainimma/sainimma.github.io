@@ -19,7 +19,7 @@ readingButton.onclick = function() {
 		newTextElement.appendChild(document.createTextNode(currentBook));
 		newTextElement.style.fontSize = "14px";
 		newTextElement.style.textAlign = "center";
-		document.querySelector("#reading-button").style.marginBottom = "0";
+		document.querySelector("#reading-button").style.marginBottom = 0;
 		document.querySelector("#reading-section").appendChild(newTextElement);
 		bookDisplayed = true;
 	}

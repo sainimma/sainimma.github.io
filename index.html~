@@ -2,10 +2,13 @@
 	<head>
 		<title>Sai Nimmagadda</title>
 		<link href="styles/main-style.css" rel="stylesheet" type="text/css">
-		<link href="https://fonts.googleapis.com/css?family=Magra" rel="stylesheet" type="text/css">
+		<link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro" rel="stylesheet" type="text/css">
 	</head>
 	<body>
 		<h1>Sai Nimmagadda</h1>
+		<div id="reading-section">
+			<button id="reading-button">What am I reading now?</button>
+		</div>
 		<img id="main-pic" src="images/sai-main.jpg" alt="main-pic"/>
 		<p> Welcome to my personal website. Here you will soon be able to find: </p>
 		<ul>
@@ -15,5 +18,6 @@
 			<li> a tool that can be used to contact me </li>
 		</ul>
 		<p> Hopefully one day my site will make my LinkedIn all but redundant, but till then, <a class="external-link" href="https://www.tinyurl.com/saiduttn">here</a> you go!</p>
+		<script src="scripts/main.js"></script>
 	</body>
 </html>
