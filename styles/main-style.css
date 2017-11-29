@@ -26,12 +26,22 @@ h2 {
 p, li {
 	font-size: 16px;
 	line-height: 2;
-	letter-spacing: 1px;
 }
 
 h1, h2, p, li {
 	color: black;
 }
+
+dt {
+	font-size: 12px;
+	line-height: 2;
+}
+
+dd, dd li {
+	font-size: 10px;
+	line-height: 2;
+}
+
 
 #main-pic {
 	margin: 0 auto;
