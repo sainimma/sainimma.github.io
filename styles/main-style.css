@@ -24,7 +24,8 @@ h2 {
 }
 
 p, li {
-	font-size: 16px;
+	letter-spacing: 0px;
+	font-size: 14px;
 	line-height: 2;
 }
 
@@ -33,13 +34,19 @@ h1, h2, p, li {
 }
 
 dt {
-	font-size: 12px;
+	font-size: 16px;
 	line-height: 2;
 }
 
 dd {
-	font-size: 10px;
+	font-size: 14px;
 	line-height: 2;
+}
+
+.resume-section {
+	text-align: left;
+	font-size:24px;
+	text-decoration: underline;
 }
 
 
