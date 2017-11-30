@@ -23,14 +23,20 @@ h2 {
 	text-align: center;
 }
 
-p, li {
+p, li, figcaption {
 	letter-spacing: 0px;
 	font-size: 14px;
 	line-height: 2;
+	color: black;
 }
 
-h1, h2, p, li {
+h1, h2, p, li, figcaption {
 	color: black;
+}
+
+figcaption {
+	text-align: center;
+	font-size: 10px;
 }
 
 dt {

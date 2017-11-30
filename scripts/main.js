@@ -1,12 +1,22 @@
 var myImage = document.getElementById('main-pic');
 
+var defaultMainPicCaption = "21st birthday - dec 2016";
+
+setCaption(defaultMainPicCaption);
+
 myImage.onclick = function() {
 	var mySrc = myImage.getAttribute('src');
 	if(mySrc === 'images/sai-main.jpg') {
 		myImage.setAttribute ('src','images/desis-choice.PNG');
+		setCaption("desis choice - apr 2015");
 	} else {
 		myImage.setAttribute ('src','images/sai-main.jpg');
+		setCaption(defaultMainPicCaption);
 	}	
+}
+
+function setCaption(caption) {
+	document.querySelector("#main-pic-fig figcaption").innerHTML = caption;
 }
 
 var readingButton = document.querySelector("#reading-button");
