@@ -61,12 +61,13 @@ dd {
 	display: block;
 }
 
-.external-link {
-	color: red;
+.contact {
+	margin: auto;
+	display: inline-block;
 }
 
-.external-link:hover {
-	color: blue;
+.contact-methods {
+	text-align: center;
 }
 
 button {
