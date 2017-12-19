@@ -24,7 +24,7 @@ var bookDisplayed = false;
 
 readingButton.onclick = function() {
 	if (!bookDisplayed) {
-		var currentBook = "\"The Pleasure of Finding Things Out\" (a collection of works by Richard Feynman)";
+		var currentBook = "\"Candide\" (Voltaire)";
 		var newTextElement = document.createElement("p");
 		newTextElement.appendChild(document.createTextNode(currentBook));
 		newTextElement.style.fontSize = "14px";
