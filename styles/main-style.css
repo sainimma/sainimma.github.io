@@ -108,6 +108,7 @@ dd {
 .tooltip {
     position: relative;
     display: inline-block;
+    padding-bottom: 0;
     border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
 }
 
@@ -125,6 +126,11 @@ dd {
     /* Position the tooltip text - see examples below! */
     position: absolute;
     z-index: 1;
+
+    /* Position the tooltip to the right of the text */
+    top: -5px;
+    left: 105%; 
+    
 }
 
 /* Show the tooltip text when you mouse over the tooltip container */
