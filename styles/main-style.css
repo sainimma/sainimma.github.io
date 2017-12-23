@@ -115,7 +115,7 @@ dd {
 .tooltip .tooltiptext {
     visibility: hidden;
     width: 20em;
-    size: 10px;
+    font-size: 0.8em;
     background-color: black;
     color: #fff;
     text-align: center;
